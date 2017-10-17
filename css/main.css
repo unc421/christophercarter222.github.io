@@ -49,6 +49,7 @@ width: 100%;
 }
 
 .content h2 {
+	font-family: 'Roboto', sans-serif;
 	line-height:100%;
 	text-align: justify;
 	margin: 10%;
