@@ -90,3 +90,14 @@ font-size: 120%;
 		padding=0;
 }
 	
+p {
+	
+font-size: 120%;
+	line-height:100%;
+	margin-left: 4cm;
+	font-family: 'Source Serif Pro';
+	p.small {
+    line-height: 0.5;
+	}
+		padding=0;
+}
