@@ -40,4 +40,21 @@ width: 100%;
 	border-radius:9px;
 	family: 'Oswald', sans-serif;
 	color: #F9F3F4;
+	padding: 10px 20px; 
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
+.btn:hover{
+	color: #036A81;
+	border: solid #036A81 3px;
+	
+}
+
+p {
+	
+font-size: 160%;
+	line-height:210%;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-sarif;
