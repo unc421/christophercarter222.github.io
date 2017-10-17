@@ -75,7 +75,7 @@ font-size: 120%;
 	p.small {
     line-height: 0.5;
 }
-	padding=0;
+	padding-top: 20px;
 }
 
 p {
