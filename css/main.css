@@ -61,5 +61,8 @@ font-size: 120%;
 	line-height:100%;
 	margin: 8%;
 	font-family: 'Roboto';
+	p.small {
+    line-height: 0.5;
+}
 }
 
