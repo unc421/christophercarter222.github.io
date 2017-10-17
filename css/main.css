@@ -16,5 +16,5 @@ width: 100%;
 	margin: auto;
 	background: url("http://i.imgur.com/CNijEL3.jpg") no-repeat;
 	background-repeat:no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
