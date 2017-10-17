@@ -68,21 +68,23 @@ p {
 	
 font-size: 120%;
 	line-height:100%;
-	margin: 8%;
+	margin: 0;
 	font-family: 'Roboto';
 	p.small {
     line-height: 0.5;
-padding: 0;
+}
+	padding=0;
 }
 
 p {
 	
 font-size: 120%;
 	line-height:100%;
-	margin: 8%;
+	margin: 0;
 	font-family: 'Roboto';
 	p.small {
     line-height: 0.5;
+	}
 		padding=0;
 }
-	}
+	
