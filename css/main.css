@@ -36,11 +36,9 @@ width: 100%;
 		font-size: 200%;
 }
 .btn{
-	border-radius:9px;
 	family: 'Montserrat', sans-serif;
 	color: #F9F3F4;
 	padding: 10px 20px; 
-	border: solid #036A81 3px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
