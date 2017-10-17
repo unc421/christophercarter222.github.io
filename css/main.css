@@ -51,7 +51,8 @@ width: 100%;
 p {
 	
 font-size: 160%;
-	line-height:210%;
+	line-height:100%;
 	text-align: justify;
 	margin: 3%;
-	font-family: sans-sarif;
+	font-family: 'Montserrat';
+}
