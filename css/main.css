@@ -11,9 +11,9 @@ width: 100%;
 }
 
 .intro{
-	height: 20%;
-	width: 20%;
+	height: 100%;
+	width: 100%;
 	margin: auto;
-	background: url("http://i.imgur.com/CNijEL3.jpg") no-replace 50% 50%;
-	background-size: 100% auto;
+	background: url("http://i.imgur.com/CNijEL3.jpg") repeat center center fixed;
+	background-size: contain;
 }
