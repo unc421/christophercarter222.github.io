@@ -51,13 +51,15 @@ width: 100%;
 	max-width=500px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
+top: 50px;
 	
 }
 .content h1 {
 	color: #F9F3F4;
 		font-size: 200%;
 	position: relative;
-top: 20px;
+top: 50px;
 }
 #btn{
 	family: 'Montserrat', sans-serif;
