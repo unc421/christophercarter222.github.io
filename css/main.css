@@ -17,7 +17,7 @@ width: 100%;
 	background: url("http://i.imgur.com/CNijEL3.jpg") no-repeat 50% 50%;
 	display: table;
 	background-size: cover;
-	opacity: 0.5;
+	opacity: 0.85;
 }
 .intro . inner {
 	display: table-cell;
@@ -66,4 +66,13 @@ font-size: 120%;
     line-height: 0.5;
 }
 
+p {
+	
+font-size: 120%;
+	line-height:100%;
+	margin: 8%;
+	font-family: 'Roboto';
+	p.small {
+    line-height: 0.5;
+}
 
