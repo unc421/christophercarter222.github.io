@@ -62,7 +62,7 @@ width: 100%;
 	padding-top: 20px;
 }
 .h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Serif Pro', sans-serif;
 	line-height:100%;
 	margin: 10%;
 }
@@ -71,7 +71,7 @@ p {
 font-size: 120%;
 	line-height:100%;
 	margin-left: 4cm;
-	font-family: 'Roboto';
+	font-family: 'Source Serif Pro';
 	p.small {
     line-height: 0.5;
 }
@@ -83,7 +83,7 @@ p {
 font-size: 120%;
 	line-height:100%;
 	margin-left: 4cm;
-	font-family: 'Roboto';
+	font-family: 'Source Serif Pro';
 	p.small {
     line-height: 0.5;
 	}
