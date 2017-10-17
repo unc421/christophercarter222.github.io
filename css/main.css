@@ -16,7 +16,8 @@ width: 100%;
 	margin: auto;
 	background: url("http://i.imgur.com/CNijEL3.jpg") no-repeat 50% 50%;
 	display: table;
-	background-size: cover
+	background-size: cover;
+	opacity: 0.5;
 }
 .intro . inner {
 	display: table-cell;
