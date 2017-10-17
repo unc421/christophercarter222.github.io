@@ -41,7 +41,7 @@ width: 100%;
 	padding: 10px 20px; 
 	text-transform: uppercase;
 	text-decoration: none;
-	position:fixed;
+	position:top;
 }
 .btn:hover{
 	color: #036A81;
