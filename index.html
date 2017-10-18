@@ -80,30 +80,16 @@
 		<p> My CV can be found here. </p>
 			</div> <!--END page4-->
 </div> <!--END page-wrap-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script>$(document).ready(function() {
-  function filterPath(string) {
-    return string
-      .replace(/^\//,'')  
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')  
-      .replace(/\/$/,'');
-  }
-  $('a[href*=#]').each(function() {
-    if ( filterPath(location.pathname) == filterPath(this.pathname)
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-         $(this).click(function() {
-           $('html, body').animate({scrollTop: targetOffset}, 2000);
-           return false;
-         });
-      }
-    }
-  });
-});</script>
+<!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 		</body>
 </html>
 
