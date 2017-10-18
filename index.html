@@ -22,6 +22,7 @@
 		
 
 	<div class="main">
+		    <article class="post__article">
 		</div>
 	<div id="page-wrap">
 	<div id="page1">
@@ -47,7 +48,7 @@
 	<div id="page2">
 		<a name="research"></a>
 		<div class="page-padding"></div>
-		<p> <b> Ongoing research projects </b> </p>
+		<h2> Ongoing research projects </h2>
 
 <p>When do Mayors Incorporate Traditional Institutions into the State? Evidence from Mexico and Peru</p>
 
@@ -62,6 +63,8 @@
 	
 		
 		</div> <!--END page2-->
+		
+		
 	 <div id="page3">
 		<a name="teaching"></a> 
 		<div class="page-padding"></div>
@@ -81,15 +84,20 @@
 			</div> <!--END page4-->
 </div> <!--END page-wrap-->
 <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+<script src="jquery.scrollNav.min.js"></script>
+<script>
+		$('.post__article').scrollNav({
+			headlineText: 'scrollNav',
+			fixedMargin: 60,
+			scrollOffset: 80,
+			arrowKeys: true
+		});
+		var $item = $('.scroll-nav__item');
+		$.each($item, function(){
+			$text = $(this).find('a').html().toLowerCase();
+			$(this).addClass($text);
+		});
+	</script>
 		</body>
 </html>
 
