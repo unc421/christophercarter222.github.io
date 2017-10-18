@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-    
-    return false;
-});
-</script>
+
 <head>
 <title> Christopher L. Carter </title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" >
@@ -79,6 +68,19 @@ $('.smooth').on('click', function() {
 		<p> African Politics (PS 146A), Fall 2015, Professor Leonardo Arriola </p>
 		
 	</section>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+    
+    return false;
+});
+</script>
 		</body>
 </html>
 
